@@ -4,115 +4,202 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maylova Chayananda | Portofolio</title>
+    
     <link rel="stylesheet" href="style.css">
+    
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Pattaya&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
-    <nav>
-        <div class="nav-container">
-            <div class="logo">Maylova.</div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#profile">Profile</a></li>
-                <li><a href="#informasi">Informasi</a></li>
-                <li><a href="#karya">Karya</a></li>
-                <li><a href="#media">Media</a></li>
-                <li><a href="#kontak">Kontak</a></li>
-            </ul>
+    <header>
+        <div class="header-container">
+            <div class="brand-logo" data-aos="fade-down">May<span>HUB</span>
         </div>
-    </nav>
+
+            <nav class="side-nav" data-aos="fade-down">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#information">Info</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
     <section id="home" class="hero">
         <div class="hero-content" data-aos="zoom-in">
-            <div class="profile-img">
-                <img src="aku10.jpeg" alt="Maylova Chayananda">
+            <div class="profile-circle">
+                <img src="aku (11).jpeg" alt="Maylova Chayananda">
             </div>
-            <h1>Halo, Aku Maylova</h1>
-            <p>Mahasiswi Sistem Informasi & Tech Enthusiast</p>
-            <div class="badge">Universitas Pamulang</div>
+            <h1>Maylova Chayananda</h1>
+            <p id="typing-text"></p>
+            <div class="university-tag">Universitas Pamulang</div>
         </div>
     </section>
 
     <section id="profile">
         <h2 data-aos="fade-up">About Me</h2>
-        <div class="container" data-aos="fade-up">
-            <div class="card">
-                <p>Halo! Nama saya <strong>Maylova Chayananda</strong>. Saya adalah mahasiswi jurusan <strong>Sistem Informasi</strong> di Universitas Pamulang. Saya memiliki ketertarikan mendalam dalam bagaimana teknologi dapat mengorganisir informasi menjadi sesuatu yang bermanfaat bagi banyak orang.</p>
-                <p class="motivation">"Tujuan saya adalah menjadi jembatan antara teknologi dan kebutuhan manusia, menciptakan solusi digital yang tidak hanya fungsional, tapi juga menyenangkan untuk digunakan."</p>
+        <div class="container">
+            <div class="card" data-aos="fade-up">
+                <p>Halo! Saya <strong>Maylova Chayananda</strong>, mahasiswi <strong>Sistem Informasi</strong> di Universitas Pamulang. Saya sangat tertarik dengan teknologi dan desain lucu yang bisa membuat data menjadi sangat menarik.</p>
+                <p class="quote">"Membangun masa depan melalui logika dan kreativitas."</p>
             </div>
         </div>
     </section>
 
-    <section id="informasi">
-        <h2 data-aos="fade-up">Personal Info</h2>
-        <div class="container grid-info">
-            <div class="info-box" data-aos="flip-left">
-                <h3>Biodata</h3>
-                <p><strong>TTL:</strong> 06 Juli 2007</p>
-                <p><strong>Domisili:</strong> Tangerang Selatan</p>
+   <section id="information">
+    <h2 data-aos="fade-up">Personal Information</h2>
+    <div class="container">
+        <div class="info-card" data-aos="zoom-in">
+            <div class="info-table">
+                <div class="info-row">
+                    <span class="info-label">Nama Lengkap</span>
+                    <span class="info-value">Maylova Chayananda</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">NIM</span>
+                    <span class="info-value">25101170607</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Kelas</span>
+                    <span class="info-value">01SIFP0010</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Jurusan</span>
+                    <span class="info-value">Sistem Informasi</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Tempat, Tgl Lahir</span>
+                    <span class="info-value">Jakarta, 06 Juli 2007</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Alamat</span>
+                    <span class="info-value">Gg. Sate II No. 97 Pondok Aren, Pondok Betung, Banten</span>
+                </div>
+                <div class="info-row no-border">
+                    <span class="info-label">Favorite</span>
+                    <span class="info-value">Kucing 🐾</span>
+                </div>
             </div>
-            <div class="info-box" data-aos="flip-left" data-aos-delay="100">
-                <h3>Pendidikan</h3>
-                <p>S1 Sistem Informasi</p>
-                <p>Universitas Pamulang</p>
-            </div>
-            <div class="info-box" data-aos="flip-left" data-aos-delay="200">
-                <h3>Keahlian</h3>
-                <p>Data Analysis, UI Design, Web Development</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="karya">
-    <h2 data-aos="fade-up">My Projects</h2>
-    <div class="container grid-karya">
-        <div class="project-card" data-aos="zoom-in">
-            <div class="project-img">✨</div>
-            <h3>Sistem Informasi Akademik</h3>
-            <p>Project analisis sistem untuk pendataan mahasiswa di kampus.</p>
-        </div>
-        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
-            <div class="project-img">🎨</div>
-            <h3>UI/UX Design</h3>
-            <p>Desain aplikasi mobile bertema pastel untuk tugas kuliah.</p>
-        </div>
-        <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
-            <div class="project-img">🌐</div>
-            <h3>Personal Website</h3>
-            <p>Membangun portofolio interaktif menggunakan HTML & CSS.</p>
         </div>
     </div>
-    </section>
+</section>
 
-    <section id="media">
-        <h2 data-aos="fade-up">Connect with Me</h2>
-        <div class="container social-links">
-            <a href="#" class="btn-social" data-aos="zoom-in">Instagram</a>
-            <a href="#" class="btn-social" data-aos="zoom-in" data-aos-delay="100">LinkedIn</a>
-            <a href="#" class="btn-social" data-aos="zoom-in" data-aos-delay="200">GitHub</a>
+    <section id="project">
+        <h2 data-aos="fade-up">Works & Projects</h2>
+        <div class="container grid-layout">
+            
+            <div class="item-box project-card" data-aos="zoom-in">
+                <img src="project (2).png" alt="Project 1" class="media-file">
+                <div class="project-info">
+                    <h3>Web Sederhana</h3>
+                    <p>Membuat web sederhana dengan desain manis.</p>
+                </div>
+            </div>
+
+            <div class="item-box project-card" data-aos="zoom-in" data-aos-delay="100">
+                <img src="project (1).png" alt="Project 2" class="media-file">
+                <div class="project-info">
+                    <h3>Web Profile</h3>
+                    <p>Membuat web data diri sederhana.</p>
+                </div>
+            </div>
+
+            <div class="item-box project-card" data-aos="zoom-in" data-aos-delay="200">
+                <img src="project (3).png" alt="Project 3" class="media-file">
+                <div class="project-info">
+                    <h3>Web Hitung Belanja</h3>
+                    <p>Membuat web hitung total belanja.</p>
+                </div>
+            </div>
+
         </div>
     </section>
 
-    <section id="kontak">
-        <div class="container" style="text-align: center;" data-aos="fade-up">
-            <h2>Kontak</h2>
-            <p>Email: <a href="mailto:maylova@email.com">maylova@email.com</a></p>
+    <section id="gallery">
+        <h2 data-aos="fade-up">My Gallery</h2>
+        <div class="container grid-layout">
+            <div class="item-box gallery-card" data-aos="fade-up">
+                <img src="aku (12).jpeg" alt="Photo" class="media-file">
+                <p class="label">Me</p>
+            </div>
+            <div class="item-box gallery-card" data-aos="fade-up" data-aos-delay="100">
+                <video controls class="media-file">
+                    <source src="sakura.mp4" type="video/mp4">
+                </video>
+                <p class="label">Sakura Drift</p>
+            </div>
+            <div class="item-box gallery-card" data-aos="fade-up" data-aos-delay="100">
+                <video controls class="media-file">
+                    <source src="meng bobo.mp4" type="video/mp4">
+                </video>
+                <p class="label">Sleepy meow</p>
+            </div>
+           <div class="gallery-wide-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="audio-full-container">
+                <div class="audio-inner-content">
+                    <span class="music-icon">🎵</span>
+                    <audio controls class="wide-audio">
+                        <source src="Mitski - My Love Mine All Mine.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+            <div class="project-details">
+                <p class="label">Fav song</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+   <section id="contact">
+        <h2 data-aos="fade-up">Contact Me</h2>
+        <div class="container">
+            <div class="contact-wrapper" data-aos="fade-up">
+                
+                <div class="contact-info">
+                    <h3>Connect With Me!</h3>
+                    <p>Punya pertanyaan atau ingin bekerja sama? Silakan kirimkan pesan kamu di sini.</p>
+                    <div class="info-details">
+                        <p>📍 Tangerang Selatan, Indonesia</p>
+                        <p>📧 maylovac@gmail.com</p>
+                        <p>📞 089698061000</p>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="input-group">
+                        <label>Your Name</label>
+                        <input type="text" placeholder="Masukkan nama kamu..." required>
+                    </div>
+                    <div class="input-group">
+                        <label>Your Email</label>
+                        <input type="email" placeholder="email@contoh.com" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Your Message</label>
+                        <textarea rows="4" placeholder="Tulis pesanmu di sini..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Send Message ✨</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+            </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Maylova Chayananda. All Rights Reserved.</p>
-        <p>Created with ✨ in South Tangerang</p>
+        <p>&copy; 2026 Maylova Chayananda. All Rights Reserved.</p>
+        <p style="font-size: 0.7rem; margin-top: 5px;">Maylova 🎀</p>
     </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            duration: 1000,
-            once: true
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
