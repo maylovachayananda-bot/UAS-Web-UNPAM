@@ -315,6 +315,34 @@ audio {
     margin-top: 5px; 
 }
 
+.cv-compact-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: white;
+    padding: 12px 25px;
+    border-radius: 50px; 
+    text-decoration: none;
+    border: 1px solid var(--soft-pink);
+}
+
+.cv-compact-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(255, 143, 163, 0.2);
+    background: var(--soft-pink);
+}
+
+.cv-small-icon {
+    font-size: 1.5rem;
+}
+
+.cv-text {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: var(--deep-pink);
+    font-size: 0.95rem;
+}
+
 .contact-wrapper {
     background: white;
     padding: 40px;
